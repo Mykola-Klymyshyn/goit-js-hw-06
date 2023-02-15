@@ -11,7 +11,7 @@ const createList = content => {
 return content.map(( ingredients) => {
 const itemEl = document.createElement('li');
 itemEl.textContent = ingredients;
-itemEl.classList.add = ("item");
+itemEl.classList.add("item");
 return itemEl;
 });
 };
